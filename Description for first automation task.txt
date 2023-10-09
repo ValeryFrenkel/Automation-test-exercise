@@ -1,0 +1,52 @@
+﻿Scenario: Shopping for Hats on Amazon
+
+
+1. Navigate to Amazon
+   - Open a web browser.
+   - Go to [https://www.amazon.com](https://www.amazon.com).
+
+
+2. Search for Men's Hats
+   - In the search bar, enter "hats for men" and press Enter.
+
+
+3. Add a Hat for Men to Cart
+   - Click on the first hat displayed.
+   - In the product details page, adjust the quantity to 2.
+   - Click the "Add to Cart" button.
+
+
+4. Search for Women's Hats
+   - Go back to the Amazon homepage.
+   - In the search bar, enter "hats for women" and press Enter.
+
+
+5. Add a Hat for Women to Cart
+   - Click on the first hat displayed.
+   - In the product details page, add the hat to the cart with a quantity of 1.
+   - Click the "Add to Cart" button.
+
+
+6. Verify Cart for All Hats
+   - Open the shopping cart.
+   - Verify that the total price and quantity for the hats is as expected (3 items and the correct total price).
+
+
+7. Adjust Quantity for Men's Hat
+   - In the shopping cart, locate the men's hat added at step 3.
+   - Modify the quantity from 2 to 1 item.
+
+
+8. Verify Updated Cart for Men's Hat
+   - Open the shopping cart.
+   - Verify that the total price and quantity for the men's hat have been correctly updated (1 item and the adjusted total price).
+
+
+Postconditions: User has successfully shopped for hats on Amazon, adjusting quantities as needed.
+
+
+Notes:
+- The revised scenario breaks down the steps into clearer actions and substeps, making it easier to follow.
+- Each action is described in a straightforward manner, with clear instructions.
+- I added "Postconditions" sections to provide context about the user's state and what the scenario aims to achieve.
+- I combined points 4 and 7 from original specification into one, since there is no need to do the same check twice.
